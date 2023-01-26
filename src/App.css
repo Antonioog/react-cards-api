@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: antiquewhite;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.App{
+  margin: 70px;
+  width: 300px;
+}
+.quoteBox__article{
+  border-radius: 10px;
+  background-color: #D35400;
+  color: aliceblue;
+  text-align: center;
+}
+
+.quoteBox__title{
+  font-size: 16px;
+  background-color: brown;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.quoteBox__img{
+  padding-bottom: 15px;
+}
+
+ul{
+  line-height: 25px;
+  padding-bottom:20px ;
+  margin:0;
+}
+.buttonBox__icon{
+  background-color: #2C3E50 ;
+  color: aliceblue;
+  margin-bottom: 20px;
+  width: 120px;
+  height: 30px;
+  border: none;
+}
+.buttonBox__icon:hover{
+  cursor: pointer;
+  color: darkorange;
+}
